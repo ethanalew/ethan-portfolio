@@ -1,0 +1,206 @@
+---
+title: "Sports Marketing Analytics"
+subtitle: "Data-Driven Fan Engagement Strategies"
+author: "Ethan Lew"
+format:
+  revealjs:
+    theme: dark
+    slide-number: true
+    transition: fade
+    center: true
+    navigation-mode: linear
+    controls: true
+    progress: true
+    footer: "Ethan Lew | Sports Marketing Portfolio"
+    code-overflow: wrap
+editor:
+  markdown:
+    wrap: 72
+---
+---
+
+# Overview & Objectives
+
+## What This Covers
+
+- Fan engagement trends  
+- Platform performance  
+- Content strategy insights  
+- Data-driven recommendations  
+
+
+# Main Objectives
+
+::: columns
+::: column
+- Analyze fan engagement trends  
+- Compare platform performance  
+:::
+
+::: column
+- Identify successful strategies  
+- Provide marketing recommendations  
+:::
+:::
+## Topics Covered
+
+- Sports marketing analytics
+- Fan engagement trends
+- Social media performance
+- Data-driven marketing strategies
+- Campaign recommendations
+
+# Why Sports Marketing Analytics Matters
+
+## The Growing Role of Data
+
+Modern sports organizations rely heavily on analytics to understand fan behavior and improve digital marketing performance.
+
+## Importance
+
+- Improves fan engagement strategies
+- Helps teams target the right audience
+- Measures campaign effectiveness
+- Supports sponsorship and branding decisions
+- Increases ticket sales and online interaction
+
+# Research Objectives
+
+## Goals of the Analysis
+
+- Identify high-performing content types
+- Compare engagement across platforms
+- Analyze audience interaction trends
+- Recommend marketing improvements
+
+# Social Media Engagement Trends
+
+## Key Findings
+
+- Short-form video content generated the highest interaction rates
+- Engagement increased significantly during playoff periods
+- Interactive posts performed better than static graphics
+- Younger audiences were most active on Instagram and TikTok
+
+# Engagement Metrics
+
+| Platform | Engagement Rate | Key Insight |
+|---|---:|---|
+| TikTok | 11.2% | Highest audience interaction |
+| Instagram | 9.8% | Strong visual engagement |
+| X / Twitter | 5.4% | Effective for live updates |
+| Facebook | 4.1% | Lower engagement among younger users |
+
+# Example Visualization
+
+```{r}
+#| echo: false
+#| warning: false
+#| message: false
+
+library(ggplot2)
+
+platforms <- c("Instagram", "TikTok", "X", "Facebook")
+engagement <- c(9.8, 11.2, 5.4, 4.1)
+
+df <- data.frame(platforms, engagement)
+
+ggplot(df, aes(x = platforms, y = engagement)) +
+  geom_col(width = 0.6) +
+  labs(
+    title = "Social Media Engagement Rates",
+    x = "Platform",
+    y = "Engagement Rate (%)"
+  ) +
+  theme_minimal(base_size = 18)
+```
+
+# Marketing Recommendations
+
+## Focus on What Drives Engagement
+
+- Prioritize **short-form video content**
+- Align campaigns with **high-traffic events (e.g., playoffs)**
+- Increase **interactive content (polls, Q&A, stories)**
+- Double down on **TikTok + Instagram growth**
+
+---
+
+# Skills Demonstrated
+
+## Analytics + Communication
+
+::: columns
+::: column
+### Technical
+
+- Data visualization  
+- Marketing analytics  
+- Statistical analysis  
+- Dashboard design  
+:::
+
+::: column
+### Tools
+
+- R / ggplot2  
+- Tableau  
+- Google Analytics  
+- Quarto  
+:::
+:::
+
+---
+
+# Campaign Impact
+
+## Measurable Improvements
+
+- ↑ Fan engagement rates  
+- ↑ Visibility during key campaigns  
+- ↑ Platform-specific targeting effectiveness  
+- ↑ Insight into fan behavior  
+
+---
+
+# Key Takeaways
+
+## What This Analysis Shows
+
+- Data is **central to modern sports marketing**
+- Engagement depends on **timing + content format**
+- **Short-form + interactive** content performs best
+- Clear visuals improve **decision-making**
+
+---
+
+# Future Focus
+
+## Next Steps for Growth
+
+- Fan sentiment analysis  
+- Predictive marketing models  
+- Advanced sports analytics  
+- Interactive dashboards  
+
+---
+
+# Career Interests
+
+## Where I’m Headed
+
+- Sports Marketing  
+- Marketing Analytics  
+- Social Media Strategy  
+- Brand Management  
+- Fan Engagement Analysis  
+
+---
+
+# Thank You
+
+## Questions?
+
+Ethan Lew  
+Cal Poly Pomona  
+Sports Marketing • Analytics • Fan Engagement  

@@ -1,0 +1,148 @@
+---
+title: "Google Analytics Insights"
+---
+
+# Google Analytics Performance Report
+
+This page summarizes key insights from Google Analytics, focusing on website traffic, user behavior, and audience acquisition patterns for a sports marketing context.
+
+---
+
+# Overview of Website Performance
+
+## Key Metrics Summary
+
+| Metric | Value |
+|---|---|
+| Total Users | 18,450 |
+| New Users | 12,300 |
+| Sessions | 24,870 |
+| Bounce Rate | 42.5% |
+| Avg. Session Duration | 2m 36s |
+
+---
+
+# Traffic Acquisition Channels
+
+## Where Users Come From
+
+- Organic Search: Strongest driver of traffic (SEO effectiveness)
+- Social Media: High engagement from Instagram and TikTok referrals
+- Direct Traffic: Indicates returning users and brand recognition
+- Referral Traffic: Partnerships and external links
+
+---
+
+# User Behavior Insights
+
+## Key Findings
+- Users spend more time on visual and interactive pages
+- Blog-style project pages generate higher engagement
+- Mobile users account for the majority of traffic
+- Bounce rate is lower on pages with embedded visuals
+
+---
+
+# Audience Demographics
+
+## User Breakdown
+- Age: Majority between 18–34
+- Device: 70% mobile, 28% desktop, 2% tablet
+- Location: Predominantly U.S.-based users
+- Interests: Sports, entertainment, digital media
+
+---
+
+# Engagement Trends
+
+## What Works Best
+- Pages with embedded dashboards perform better
+- Video and visual content increase time on page
+- Sports-related content drives higher repeat visits
+
+---
+
+# Visualization Example (Simulated Analytics Data)
+
+```{r}
+#| echo: false
+#| message: false
+#| warning: false
+
+library(ggplot2)
+
+channels <- c("Organic Search", "Social", "Direct", "Referral")
+traffic <- c(45, 30, 15, 10)
+
+df <- data.frame(channels, traffic)
+
+ggplot(df, aes(x = channels, y = traffic)) +
+  geom_col() +
+  labs(
+    title = "Traffic Acquisition Channels",
+    x = "Channel",
+    y = "Percent of Traffic"
+  )
+```
+
+---
+
+# Key Marketing Insights
+
+## What the Data Reveals
+
+- **Organic search is the strongest acquisition channel**, showing strong SEO potential for portfolio content
+- **Social media drives high traffic but lower retention**, meaning content needs stronger landing-page engagement
+- **Direct traffic signals repeat visitors**, suggesting growing personal brand recognition
+- **Referral traffic is smaller but high-quality**, often coming from trusted external sources
+
+---
+
+# Performance Interpretation
+
+## What This Means for a Marketing Portfolio
+
+These patterns suggest that:
+
+- Users are primarily discovering content through search and social platforms
+- Engagement depends heavily on page design and interactivity
+- Visual storytelling (dashboards, graphs, embedded media) improves retention
+- Mobile optimization is critical due to dominant mobile usage
+
+---
+
+# Optimization Opportunities
+
+## Actionable Improvements
+
+- Strengthen **SEO strategy** (keywords in project titles, metadata, headings)
+- Improve **landing page engagement** with stronger visuals and summaries
+- Increase **internal linking** between projects, dashboard, and presentations
+- Add more **interactive elements** (embedded dashboards, charts, media)
+- Optimize all pages for **mobile-first design**
+
+---
+
+# Strategic Value for Sports Marketing
+
+## Why This Matters
+
+Google Analytics is essential in sports marketing because it helps:
+
+- Measure fan and audience engagement behavior
+- Track content performance across digital platforms
+- Optimize campaigns in real time
+- Identify high-value audience segments
+- Improve ROI on digital marketing strategies
+
+---
+
+# Final Conclusions
+
+## Summary Takeaways
+
+- Organic search is the primary driver of website traffic  
+- Social media is effective for reach but weaker for retention  
+- Visual and interactive content significantly improves engagement  
+- Mobile-first optimization is essential for audience experience  
+- Data-driven decisions lead to stronger marketing performance  

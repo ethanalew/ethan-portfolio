@@ -1,0 +1,118 @@
+---
+title: "Projects"
+---
+
+# Sports Marketing & Analytics Projects
+
+Welcome to my portfolio of marketing and analytics work. These projects highlight my experience with data visualization, campaign analysis, audience engagement, and marketing strategy.
+
+---
+
+# NBA Fan Engagement Analysis
+
+## Overview
+This project analyzed NBA fan engagement trends across social media platforms during the regular season and playoffs.
+
+## Objectives
+- Identify which content types generate the highest engagement
+- Compare engagement performance across platforms
+- Recommend strategies to improve audience interaction
+
+## Tools Used
+- Tableau
+- Excel
+- Google Sheets
+- Social Media Analytics
+
+## Key Findings
+- Video content generated the highest engagement rates
+- Instagram outperformed X (Twitter) in audience interaction
+- Engagement increased significantly during playoff periods
+
+## Recommendations
+- Increase short-form video content
+- Post more game-day interactive content
+- Focus marketing efforts around major matchups and playoff games
+
+---
+
+# Sports Merchandise Campaign Performance Dashboard
+
+## Overview
+Developed a dashboard to track sales and campaign performance for sports merchandise promotions.
+
+## Features
+- Sales trend visualization
+- Conversion rate tracking
+- Audience segmentation
+- Campaign ROI analysis
+
+## Metrics Tracked
+- Click-through rate (CTR)
+- Conversion rate
+- Revenue growth
+- Customer engagement
+
+## Outcome
+The dashboard improved visibility into campaign performance and helped identify top-performing promotions.
+
+---
+
+# Student Research Participation Analysis
+
+## Overview
+Analyzed how student motivation, engagement, and research participation experiences influence future participation intentions.
+
+## Objectives
+- Measure relationships between engagement and satisfaction
+- Visualize participation trends
+- Identify factors that encourage continued participation
+
+## Skills Demonstrated
+- Data cleaning
+- Statistical analysis
+- Data visualization
+- Research reporting
+
+---
+
+# Marketing Analytics Presentation
+
+This project involved creating a RevealJS presentation focused on marketing analytics and data-driven decision making.
+
+## Topics Covered
+- Consumer engagement metrics
+- Digital marketing performance
+- Campaign optimization strategies
+- Data storytelling techniques
+
+---
+
+# Tableau Dashboard Project
+
+## Overview
+Created an interactive Tableau dashboard using public datasets to visualize trends and insights.
+
+## Dashboard Features
+- Interactive filters
+- Trend analysis
+- Comparative visualizations
+- KPI tracking
+
+## Skills Used
+- Tableau Public
+- Data visualization
+- Dashboard design
+- Analytical storytelling
+
+---
+
+# Future Projects
+
+Upcoming projects I plan to add include:
+
+- Sports sponsorship analytics
+- Fan sentiment analysis
+- Social media campaign optimization
+- Ticket sales forecasting
+- Athlete brand engagement analysis

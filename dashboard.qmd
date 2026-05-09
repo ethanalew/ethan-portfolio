@@ -1,0 +1,74 @@
+---
+title: "Dashboard"
+---
+
+# Sports Marketing Analytics Dashboard
+
+This dashboard highlights marketing performance metrics, audience engagement trends, and campaign analytics related to sports marketing and digital media.
+
+---
+
+# Campaign Performance Overview
+
+## Key Performance Indicators (KPIs)
+
+| Metric | Value |
+|---|---|
+| Total Impressions | 245,000 |
+| Engagement Rate | 8.4% |
+| Click-Through Rate (CTR) | 3.1% |
+| Conversion Rate | 2.4% |
+| Followers Gained | 4,250 |
+
+---
+
+# Audience Engagement Trends
+
+## Insights
+- Engagement peaks during playoff games and rivalry matchups
+- Video content generates the highest interaction rates
+- Instagram and TikTok outperform other platforms for younger audiences
+
+---
+
+# Social Media Platform Performance
+
+| Platform | Engagement Rate |
+|---|---|
+| Instagram | 9.8% |
+| TikTok | 11.2% |
+| X (Twitter) | 5.4% |
+| Facebook | 4.1% |
+
+---
+
+# Fan Demographics
+
+## Primary Audience
+- Ages 18–34
+- Sports fans interested in basketball and football
+- Highly active on social media platforms
+
+---
+
+# Data Visualization Example
+
+```{r}
+#| echo: false
+#| warning: false
+
+library(ggplot2)
+
+platforms <- c("Instagram", "TikTok", "X", "Facebook")
+engagement <- c(9.8, 11.2, 5.4, 4.1)
+
+df <- data.frame(platforms, engagement)
+
+ggplot(df, aes(x = platforms, y = engagement)) +
+  geom_col() +
+  labs(
+    title = "Social Media Engagement Rates",
+    x = "Platform",
+    y = "Engagement Rate (%)"
+  )
+```

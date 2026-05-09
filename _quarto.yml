@@ -1,0 +1,48 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Ethan Lew | Sports Marketing & Analytics"
+
+  description: "Sports marketing and analytics portfolio focused on fan engagement, digital strategy, and data-driven insights."
+
+  favicon: images/favicon.png
+
+  navbar:
+    background: dark
+    search: true
+
+    left:
+      - text: Home
+        href: index.qmd
+
+      - text: Projects
+        href: projects.qmd
+
+      - text: Dashboard
+        href: dashboard.qmd
+
+      - text: Analytics
+        href: analytics.qmd
+
+      - text: Presentation
+        href: presentation.qmd
+        
+      - text: Resume
+        href: resume.qmd
+
+  page-footer:
+    center: "© 2026 Ethan Lew | Built with Quarto"
+    left: "Sports Marketing & Analytics"
+    right: "LinkedIn | GitHub"
+
+format:
+  html:
+    theme:
+      light: flatly
+      dark: darkly
+    toc: true
+    toc-location: right
+    smooth-scroll: true
+    link-external-newwindow: true
