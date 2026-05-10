@@ -24,13 +24,13 @@ jobs:
       - name: Setup Quarto
         uses: quarto-dev/quarto-actions/setup@v2
 
-      - name: Install R packages
+      - name: Install dependencies
         run: |
-          Rscript -e 'install.packages("rmarkdown", repos="https://cloud.r-project.org")'
-          Rscript -e 'install.packages("ggplot2", repos="https://cloud.r-project.org")'
+          quarto install tool r
+          quarto install extension quarto-ext/ggplot2
 
       - name: Render site
-        uses: quarto-dev/quarto-actions/render@v2
+        run: quarto render
 
       - name: Upload site
         uses: actions/upload-pages-artifact@v3
