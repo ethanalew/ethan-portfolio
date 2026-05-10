@@ -24,10 +24,9 @@ jobs:
       - name: Setup Quarto
         uses: quarto-dev/quarto-actions/setup@v2
 
-      - name: Install dependencies
+      - name: Install R packages
         run: |
-          quarto install tool r
-          quarto install extension quarto-ext/ggplot2
+          Rscript -e 'install.packages(c("knitr", "rmarkdown", "ggplot2"), repos = "https://cloud.r-project.org", dependencies = TRUE)'
 
       - name: Render site
         run: quarto render
