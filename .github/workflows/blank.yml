@@ -21,8 +21,8 @@ jobs:
       - uses: quarto-dev/quarto-actions/setup@v2
 
       - name: Install R packages
-        run: |
-          Rscript -e 'install.packages(c("ggplot2", "dplyr", "tidyverse"), repos = "https://cloud.r-project.org")'
+  run: |
+    Rscript -e 'install.packages(c("rmarkdown","ggplot2"), repos="https://cloud.r-project.org")'
 
       - uses: quarto-dev/quarto-actions/render@v2
 
