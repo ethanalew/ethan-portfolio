@@ -32,17 +32,13 @@ jobs:
       - name: Setup Quarto
         uses: quarto-dev/quarto-actions/setup@v2
 
-      - name: Check packages
-        run: |
-          Rscript -e 'library(knitr); library(rmarkdown); library(ggplot2)'
-
       - name: Render site
         run: quarto render
 
       - name: Upload site
         uses: actions/upload-pages-artifact@v3
         with:
-          path: _site
+          path: docs
 
       - name: Deploy
         uses: actions/deploy-pages@v4
