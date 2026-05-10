@@ -23,7 +23,7 @@ jobs:
 
       - name: Install R packages
         run: |
-          Rscript -e 'install.packages(c("rmarkdown","ggplot2"), repos="https://cloud.r-project.org")'
+          Rscript -e 'install.packages(c("rmarkdown","ragg","ggplot2"), repos="https://cloud.r-project.org", dependencies=TRUE)'
 
       - uses: quarto-dev/quarto-actions/render@v2
 
