@@ -4,7 +4,7 @@ title: "Resume"
 
 # Ethan Lew
 
-![](images/IMG_6637.jpeg){width="375"}
+![](images/profile.png)
 
 ## Business Administration – Marketing Management
 
