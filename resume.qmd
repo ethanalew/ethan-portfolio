@@ -4,7 +4,7 @@ title: "Resume"
 
 # Ethan Lew
 
-![](home.jpeg)
+![](resume.jpeg)
 
 ## Business Administration – Marketing Management
 
