@@ -14,25 +14,25 @@ Welcome to my portfolio of marketing and analytics work. These projects highligh
 This project analyzed NBA fan engagement trends across social media platforms during the regular season and playoffs.
 
 ## Objectives
-- Identify which content types generate the highest engagement
-- Compare engagement performance across platforms
-- Recommend strategies to improve audience interaction
+- Identify content types that drive the highest engagement  
+- Compare performance across major social media platforms  
+- Develop data-driven recommendations to enhance audience interaction  
 
 ## Tools Used
-- Tableau
-- Excel
-- Google Sheets
-- Social Media Analytics
+- Tableau  
+- Microsoft Excel  
+- Google Sheets  
+- Social Media Analytics Platforms  
 
 ## Key Findings
-- Video content generated the highest engagement rates
-- Instagram outperformed X (Twitter) in audience interaction
-- Engagement increased significantly during playoff periods
+- Video content consistently generated the highest engagement rates  
+- Instagram outperformed X (formerly Twitter) in overall audience interaction  
+- Engagement levels increased significantly during playoff periods
 
 ## Recommendations
-- Increase short-form video content
-- Post more game-day interactive content
-- Focus marketing efforts around major matchups and playoff games
+- Prioritize short-form video content  
+- Increase interactive, game-day posts  
+- Align marketing efforts with high-profile matchups and playoff events 
 
 ---
 
@@ -42,10 +42,10 @@ This project analyzed NBA fan engagement trends across social media platforms du
 Developed a dashboard to track sales and campaign performance for sports merchandise promotions.
 
 ## Features
-- Sales trend visualization
-- Conversion rate tracking
-- Audience segmentation
-- Campaign ROI analysis
+- Sales trend visualization  
+- Conversion rate analysis  
+- Audience segmentation insights  
+- Campaign return on investment (ROI) tracking  
 
 ## Metrics Tracked
 - Click-through rate (CTR)
@@ -55,24 +55,6 @@ Developed a dashboard to track sales and campaign performance for sports merchan
 
 ## Outcome
 The dashboard improved visibility into campaign performance and helped identify top-performing promotions.
-
----
-
-# Student Research Participation Analysis
-
-## Overview
-Analyzed how student motivation, engagement, and research participation experiences influence future participation intentions.
-
-## Objectives
-- Measure relationships between engagement and satisfaction
-- Visualize participation trends
-- Identify factors that encourage continued participation
-
-## Skills Demonstrated
-- Data cleaning
-- Statistical analysis
-- Data visualization
-- Research reporting
 
 ---
 
